@@ -1,18 +1,18 @@
-#1. DATA
-#2. MODEL
-#3. COMPILE
-#4. EVALUATE, PREDICT
+# #1. DATA
+# #2. MODEL
+# #3. COMPILE
+# #4. EVALUATE, PREDICT
 
 #1. DATA
-# import numpy as np
-# x = np.array([1, 2, 3])
-# y = np.array([1, 2, 3])
+import numpy as np
+x = np.array([1, 2, 3])
+y = np.array([1, 2, 3])
 
 #실제 데이터를 가져오려면?
-from sklearn.datasets import load_diabetes
-dataset = load_diabetes()
-x = dataset.data
-y = dataset.target
+# from sklearn.datasets import load_diabetes
+# dataset = load_diabetes()
+# x = dataset.data
+# y = dataset.target
 
 # print(x.shape)
 # print(y.shape)
