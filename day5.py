@@ -1,8 +1,8 @@
-import numpy as np 
-from sklearn.datasets import load_boston
+# import numpy as np
+from sklearn.datasets import load_diabetes
 
 #1. DATA
-dataset = load_boston()
+dataset = load_diabetes()
 
 x = dataset.data
 y = dataset.target
@@ -16,7 +16,7 @@ from tensorflow.keras.models import Sequential
 from tensorflow.keras.layers import Dense 
 
 model = Sequential()
-model.add(Dense(516, input_dim = 13))
+model.add(Dense(516, input_dim = 10))
 model.add(Dense(256))
 model.add(Dense(128))
 model.add(Dense(64))
